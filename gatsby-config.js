@@ -3,7 +3,22 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
+    title: "Codee King Personal Website",
+    author: "Codee King",
+    description: "A collection of my thoughts and writings.",
+    siteUrl: "https://amberley.blog/",
+    social: [
+      {
+        icon: 'fa-github',
+        name: "github",
+        url: "https://github.com/codeebk",
+      },
+      {
+        icon: 'fa-linkedin',
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/codee-king/",
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
