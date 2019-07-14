@@ -9,6 +9,7 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import pic8 from '../assets/images/snack-stalker.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -30,7 +31,7 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a> */}
           <div className="content">
-            <h2 className="major">About</h2>
+            <h2 className="major">About Me</h2>
             <p>
             As a software engineer and dancer I use my deeply ingrained passion for mastering new techniques to bridge the gap between technology and art. I always follow my gut and I am highly motivated by my inner voice.
             </p>
@@ -87,23 +88,19 @@ const IndexPage = () => (
         <div className="inner">
           <h2 className="major">Things I've Built</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            These are some applications that I've built recently.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
-                <img src={pic4} alt="" />
+                <img src={pic8} alt="" />
               </a>
               <h3 className="major">SnackStalker</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+              Worked on a team of two UX designers and two developers to create a full-stack Python application using the Django framework.
               </p>
-              <a href="/#" className="special">
-                Learn more
+              <a href="https://github.com/Codeebk/snackstalker1" className="special">
+                View Project
               </a>
             </article>
             <article>
@@ -112,14 +109,13 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Austin Dance Community</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+              An app exclusively for learning about and posting dance events (individual project using Node, Express, Mongoose, and MongoDB)
               </p>
-              <a href="/#" className="special">
-                Learn more
+              <a href="https://github.com/Codeebk/dance-community-app" className="special">
+                View Project
               </a>
             </article>
-            <article>
+            {/* <article>
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
               </a>
@@ -144,15 +140,15 @@ const IndexPage = () => (
               <a href="/#" className="special">
                 Learn more
               </a>
-            </article>
+            </article> */}
           </section>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="/#" className="button">
                 Browse All
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </section>

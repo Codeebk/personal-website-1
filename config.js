@@ -22,15 +22,15 @@ module.exports = {
       name: 'LinkedIn',
       url: 'linkedin.com/in/codee-king/',
     },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+    // {
+    //   icon: 'fa-facebook',
+    //   name: 'Facebook',
+    //   url: 'https://facebook.com/theanubhav',
+    // },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:codee.king@gmail.com',
     },
   ],
   phone: '000-00000',
