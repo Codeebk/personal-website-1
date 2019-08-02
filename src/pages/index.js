@@ -10,6 +10,7 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/snack-stalker.png';
+import codee from '../assets/images/codee3square.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -27,9 +28,9 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          {/* <a href="/#" className="image">
-            <img src={pic1} alt="" />
-          </a> */}
+          <a href="/#" className="image">
+            <img src={codee} alt="" />
+          </a>
           <div className="content">
             <h2 className="major">About Me</h2>
             <p>
@@ -50,11 +51,19 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Experience</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+
+            <h3>Software Engineering Fellow</h3>
+						<blockquote>
+              Three-month, 500-hour full-time and full-stack web development program where I expanded on experience with latest front and back-end programming languages, tools, and methodologies.
+
+              Developed a portfolio of individually and collaboratively focused projects, including:
+               <ul>
+									<li><u>Austin Dance Community</u> - An app exclusively for learning about and posting dance events (individual project using Node, Express, Mongoose, and MongoDB)</li>
+									<li><u>SnackStalker</u> - Worked on a team of two UX designers and two developers to create a full-stack python application using the Django framework (My roles in addition to developer- Scrum master, GitHub manager)</li>
+									
+								</ul>
+                </blockquote>
+
             </p>
             <a href="/#" className="special">
               Learn more
