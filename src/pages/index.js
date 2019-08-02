@@ -45,18 +45,18 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          {/* <a href="/#" className="image">
             <img src={pic2} alt="" />
-          </a>
+          </a> */}
           <div className="content">
             <h2 className="major">Experience</h2>
             <p>
 
-            <h3>Software Engineering Fellow</h3>
+            <h3>Software Engineering Fellow - General Assembly</h3>
 						<blockquote>
-              Three-month, 500-hour full-time and full-stack web development program where I expanded on experience with latest front and back-end programming languages, tools, and methodologies.
+              <p>Three-month, 500-hour full-time and full-stack web development program where I expanded on experience with latest front and back-end programming languages, tools, and methodologies.</p>
 
-              Developed a portfolio of individually and collaboratively focused projects, including:
+              <p>Developed a portfolio of individually and collaboratively focused projects, including:</p>
                <ul>
 									<li><u>Austin Dance Community</u> - An app exclusively for learning about and posting dance events (individual project using Node, Express, Mongoose, and MongoDB)</li>
 									<li><u>SnackStalker</u> - Worked on a team of two UX designers and two developers to create a full-stack python application using the Django framework (My roles in addition to developer- Scrum master, GitHub manager)</li>
@@ -65,8 +65,8 @@ const IndexPage = () => (
                 </blockquote>
 
             </p>
-            <a href="/#" className="special">
-              Learn more
+            <a href="https://drive.google.com/file/d/13dR4d9vfhNzzvLLayQZwXIG7uY1l5cYo/view" className="special">
+              View full resume
             </a>
           </div>
         </div>
@@ -78,17 +78,13 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Technologies I work with</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              HTML | CSS | JavaScript | React | Node | jQuery | MongoDB | Python | Django | PostgreSQL | GraphQL | Gatsby | Firebase | Git | GitHub | Photoshop | Lightroom | After Effects | Premiere
             </p>
-            <a href="/#" className="special">
+            {/* <a href="/#" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
