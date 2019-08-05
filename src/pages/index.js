@@ -11,6 +11,8 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/snack-stalker.png';
 import codee from '../assets/images/codee3square.jpg';
+import dance from '../assets/images/womandancing.jpg';
+import typing from '../assets/images/womantyping.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -75,7 +77,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={typing} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Technologies I work with</h2>
@@ -110,7 +112,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={dance} alt="" />
               </a>
               <h3 className="major">Austin Dance Community</h3>
               <p>
