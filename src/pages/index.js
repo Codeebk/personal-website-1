@@ -99,7 +99,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="https://github.com/Codeebk/snackstalker1" className="image">
                 <img src={pic8} alt="" />
               </a>
               <h3 className="major">SnackStalker</h3>
@@ -111,7 +111,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="https://github.com/Codeebk/dance-community-app" className="image">
                 <img src={dance} alt="" />
               </a>
               <h3 className="major">Austin Dance Community</h3>
