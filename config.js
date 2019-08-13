@@ -15,12 +15,12 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'github.com/codeebk',
+      url: 'https://github.com/codeebk',
     },
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'linkedin.com/in/codee-king/',
+      url: 'https://linkedin.com/in/codee-king/',
     },
     // {
     //   icon: 'fa-facebook',
