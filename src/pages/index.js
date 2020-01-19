@@ -20,7 +20,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-cogs"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -36,7 +36,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">About Me</h2>
             <p>
-            As a software engineer and dancer I use my deeply ingrained passion for mastering new techniques to bridge the gap between technology and art. I always follow my gut and I am highly motivated by my inner voice.
+            As a software engineer and dancer I use my deeply ingrained passion for mastering new techniques to bridge the gap between technology and art. Currently based in Dallas, TX.
             </p>
             {/* <a href="/#" className="special">
               Learn more
@@ -52,6 +52,14 @@ const IndexPage = () => (
           </a> */}
           <div className="content">
             <h2 className="major">Experience</h2>
+            <p>
+
+            <h3>Software Engineer - Trintech</h3>
+						<blockquote>
+              <p>Work on an agile team to build cloud-based financial software, used by the majority of the Fortune 100, that simplifies the financial close process.</p>
+                </blockquote>
+
+            </p>
             <p>
 
             <h3>Software Engineering Fellow - General Assembly</h3>
@@ -82,7 +90,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Technologies I work with</h2>
             <p>
-              HTML | CSS | JavaScript | React | Node | jQuery | MongoDB | Python | Django | PostgreSQL | GraphQL | Gatsby | Firebase | Git | GitHub | Photoshop | Lightroom | After Effects | Premiere
+              HTML | CSS | JavaScript | React | Angular | Node | jQuery | MongoDB | Python | Django | PostgreSQL | GraphQL | Gatsby | Firebase | Git | GitHub | Photoshop | Lightroom | After Effects | Premiere
             </p>
             {/* <a href="/#" className="special">
               Learn more
