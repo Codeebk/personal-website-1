@@ -11,6 +11,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/snack-stalker.png';
 import codee from '../assets/images/codee3square.jpg';
+import codee2 from '../assets/images/codee_dallas_portrait.jpg';
 import dance from '../assets/images/womandancing.jpg';
 import typing from '../assets/images/womantyping.jpg';
 
@@ -19,9 +20,9 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <div className="logo">
+        {/* <div className="logo">
           <span className="icon fa-cogs"></span>
-        </div>
+        </div> */}
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
@@ -31,7 +32,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={codee} alt="" />
+            <img src={codee2} alt="" />
           </a>
           <div className="content">
             <h2 className="major">About Me</h2>
