@@ -36,7 +36,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">About Me</h2>
             <p>
-            As a software engineer and dancer I use my deeply ingrained passion for mastering new techniques to bridge the gap between technology and art. Currently based in Dallas, TX.
+            As a software engineer and dancer I use my deeply ingrained passion for mastering new techniques to bridge the gap between technology and art. Currently based in Austin, TX.
             </p>
             {/* <a href="/#" className="special">
               Learn more
@@ -57,6 +57,8 @@ const IndexPage = () => (
             <h3>Software Engineer - Trintech</h3>
 						<blockquote>
               <p>Work on an agile team to build cloud-based financial software, used by the majority of the Fortune 100, that simplifies the financial close process.</p>
+              <p>Develop features using Angular 9+ front end framework</p>
+              <p>Contribute to the complete re-write of the application user interface, so that current customers can continue using important accounting software after the deprecation of Flash</p>
                 </blockquote>
 
             </p>
@@ -90,7 +92,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Technologies I work with</h2>
             <p>
-              HTML | CSS | JavaScript | React | Angular | Node | jQuery | MongoDB | Python | Django | PostgreSQL | GraphQL | Gatsby | Firebase | Git | GitHub | Photoshop | Lightroom | After Effects | Premiere
+              HTML | CSS | JavaScript | Angular | Jasmine TDD | React | Node | MongoDB | Python | Django | SQL | GraphQL | Gatsby | Git | GitHub | Azure | Confluence | VSTS
             </p>
             {/* <a href="/#" className="special">
               Learn more
